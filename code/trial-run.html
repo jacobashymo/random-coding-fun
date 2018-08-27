@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Andy Mineo</title>
+    <link href="trial-run.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Andy Mineo Goes Off</h1>
+    <img class="andy-mineo" src="https://images.gametime.co/concert/music/gametime-images/musicandymineo/hero@4x/andy-mineo.jpg?auto=webp&format=pjpg&quality=80&disable=upscale&dpr=1&fit=crop&width=1040&height=520">
+    <p id="p">"You will never write a verse like Kendrick</p>
+    <p id="p">Never be the rap or rock god from Hendricks</p>
+    <p id="p">Top ten alive you will never be mentioned</p>
+    <p id="p">Why aim so high won't survive the trenches</p>
+    <p id="p">Plus you a Christian Andy they will never listen Andy</p>
+    <p id="p">Plus where your pigment Andy?</p>
+    <p id="p">You don't got skill you a gimmick Andy</p>
+    <p id="p">Well, if I listen to you</p>
+    <p id="p">And everything you put in my air</p>
+    <p id="p">I'd be livin like woulda, shoulda, coulda</p>
+    <p id="p">I'd be paralyzed by fear"</p>
+
+    <script>
+        let isRapper = true;
+        let isDrummer = true;
+        let verse = "You will never write a verse like Kendrick never be the rap or rock god from Hendricks top ten alive you will ..."
+
+        if (isRapper === true && isDrummer === false) {
+            console.log(`${verse}`)
+        }
+        else if (isDrummer === true && isRapper === false) {
+            console.log("If you touch my drums, I will stab you, in the neck, with a knife!".toUpperCase());
+        }
+        else if (isRapper === true && isDrummer === true) {
+            console.log("I'm treatin' all of you nights like I'm fightin', that just ain't flyin' Not today Satan!");
+            document.getElementsByTagName("<p>").style.fontFamily = "cursive, wingdings, sans-serif";
+        }
+        else {
+            console.log("Sorry fam")
+        }
+    </script>
+</body>
+
+</html>
